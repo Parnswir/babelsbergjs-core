@@ -1,0 +1,22 @@
+{
+  "name": "babelsbergjs-core",
+  "version": "0.0.0",
+  "description": "BabelsbergJS core",
+  "main": "dist/babelsberg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Parnswir/babelsbergjs-core.git"
+  },
+  "keywords": [
+    "constraints",
+    "babelsberg"
+  ],
+  "author": "Maximilian Grundke",
+  "bugs": {
+    "url": "https://github.com/Parnswir/babelsbergjs-core/issues"
+  },
+  "homepage": "https://github.com/Parnswir/babelsbergjs-core"
+}
