@@ -14,9 +14,12 @@
     "constraints",
     "babelsberg"
   ],
-  "author": "Maximilian Grundke",
+  "author": "The Babelsberg Team",
   "bugs": {
     "url": "https://github.com/Parnswir/babelsbergjs-core/issues"
   },
-  "homepage": "https://github.com/Parnswir/babelsbergjs-core"
+  "homepage": "https://github.com/Parnswir/babelsbergjs-core",
+  "dependencies": {
+    "lively.lang": "~0.4.1"
+  }
 }
