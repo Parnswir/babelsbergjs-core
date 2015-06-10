@@ -1,0 +1,25 @@
+{
+  "name": "babelsbergjs-core",
+  "version": "1.0.0",
+  "description": "BabelsbergJS core",
+  "main": "dist/babelsberg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Parnswir/babelsbergjs-core.git"
+  },
+  "keywords": [
+    "constraints",
+    "babelsberg"
+  ],
+  "author": "The Babelsberg Team",
+  "bugs": {
+    "url": "https://github.com/Parnswir/babelsbergjs-core/issues"
+  },
+  "homepage": "https://github.com/Parnswir/babelsbergjs-core",
+  "dependencies": {
+    "lively.lang": "~0.4.1"
+  }
+}
