@@ -1,8 +1,8 @@
 {
-  "name": "babelsbergjs-cassowary",
-  "version": "1.0.0",
-  "description": "Cassowary solver for BabelsbergJS",
-  "main": "index.js",
+  "name": "babelsbergjs-core",
+  "version": "0.0.0",
+  "description": "BabelsbergJS core",
+  "main": "dist/babelsberg.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/Parnswir/babelsbergjs-core",
   "dependencies": {
-    "lively.lang": "~0.4.1",
-    "babelsberjs-core": "~1.0.0"
+    "lively.lang": "~0.4.1"
   }
 }

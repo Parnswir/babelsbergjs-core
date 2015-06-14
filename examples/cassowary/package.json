@@ -1,9 +1,0 @@
-{ 
-  "name" : "babelsbergjs-examples-cassowary",
-  "version" : "1.0.0",
-  "dependencies" : { 
-    "lively.lang": "~0.4.1",
-    "babelsberjs-core": "~1.0.0",
-    "babelsbergjs-cassowary": "~1.0.0"
-  }
-}
