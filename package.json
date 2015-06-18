@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "description": "BabelsbergJS core",
   "main": "lib/babelsberg.js",
+  "license": "BSD-3-Clause",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Parnswir/babelsbergjs-core.git"
+    "url": "https://github.com/babelsbergjs/babelsbergjs-core.git"
   },
   "keywords": [
     "constraints",
@@ -16,9 +17,9 @@
   ],
   "author": "The Babelsberg Team",
   "bugs": {
-    "url": "https://github.com/Parnswir/babelsbergjs-core/issues"
+    "url": "https://github.com/babelsbergjs/babelsbergjs-core/issues"
   },
-  "homepage": "https://github.com/Parnswir/babelsbergjs-core",
+  "homepage": "https://github.com/babelsbergjs/babelsbergjs-core",
   "dependencies": {
     "lively.lang": "~0.4.1",
     "prototype": "~0.0.5"
