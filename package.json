@@ -26,6 +26,7 @@
     "prototype": "~0.0.5"
   },
   "devDependencies": {
-      "should": "^7.0.1"
+    "babelsbergjs-cassowary": "^0.1.0",
+    "should": "^7.0.1"
   }
 }
