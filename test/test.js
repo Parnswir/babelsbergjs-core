@@ -3,18 +3,7 @@ var bbb = require("../lib/babelsberg")
 var bbb_cassowary = require("babelsbergjs-cassowary")
 
 
-function prepared_always(ctx,callback) {
-  ctx = ctx || {};
-  return bbb.always({
-    solver: new bbb_cassowary.ClSimplexSolver(),
-    ctx: ctx
-  }, callback);
-}
-
-
 describe('bbb', function() {
-
-
   describe('properties', function() {
     it('contain empty solvers.', function() {
       bbb.should.have.property('defaultSolvers').with.lengthOf(0);
@@ -37,23 +26,15 @@ describe('bbb', function() {
     });
   });
 
-
-  it('can disable constraints temporarily.', function() {
-    var obj = {a: 8};
-    var c = prepared_always({obj: obj}, function () {
-        return obj.a >= 100;
+  it('can use solver for simple reassignment solving.', function() {
+    obj = {a: 1, b: 2};
+    return bbb.always({
+      solver: new bbb_cassowary.ClSimplexSolver(),
+      ctx: {obj: obj}
+    }, function () {
+      return obj.a + 7 <= obj.b;
     });
-    obj.a = 110;
-    (function(){
-      obj.a = 90
-    }).should.throw(/^\(ExCLRequiredFailure\).*/);
-    c.disable();
-    obj.a = 90;
-    obj.a.should.be.exactly(90);
-    c.enable();
-    obj.a.should.be.exactly(100);
-    (function(){
-        obj.a = 90;
-    }).should.throw(/^\(ExCLRequiredFailure\).*/);
+    obj.a = 10;
+    (obj.a + 7).should.not.be.greaterThan(obj.b);
   });
 });
