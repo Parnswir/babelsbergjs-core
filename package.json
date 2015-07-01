@@ -1,6 +1,6 @@
 {
   "name": "babelsbergjs-core",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "BabelsbergJS core",
   "main": "lib/babelsberg.js",
   "license": "BSD-3-Clause",
