@@ -1,11 +1,12 @@
 {
   "name": "babelsbergjs-core",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "BabelsbergJS core",
   "main": "lib/babelsberg.js",
   "license": "BSD-3-Clause",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "start": "echo 'Start node-inspector in a separate terminal!' && mocha -d --debug-brk"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,9 @@
   "dependencies": {
     "lively.lang": "~0.4.1",
     "prototype": "~0.0.5"
+  },
+  "devDependencies": {
+    "babelsbergjs-cassowary": "^0.1.0",
+    "should": "^7.0.1"
   }
 }
