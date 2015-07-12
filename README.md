@@ -6,7 +6,7 @@ See [the original repo](https://github.com/babelsberg/babelsberg-js) for more in
 
 ## Usage
 
-* require babelsbergjs-core and a solver in your Node project:
+* require babelsbergjs-core and a [solver](https://github.com/babelsbergjs/babelsbergjs-cassowary) in your Node project:
 
 ```javascript
   var bbb = require('babelsbergjs-core');
