@@ -20,7 +20,7 @@ describe('bbb', function() {
       bbb.should.have.property('always').which.is.a.Function;
     });
 
-    it('was declared in Babelsberg blass.', function() {
+    it('was declared in Babelsberg class.', function() {
       bbb.always.should.property('declaredClass')
           .which.is.exactly("Babelsberg");
     });
